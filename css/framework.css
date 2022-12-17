@@ -189,7 +189,6 @@ a{
   .row .col-md-d-none{
     display: none;
   }
-
 }
 @media screen and (max-width:767px) {
   .row .col-xs-1{
