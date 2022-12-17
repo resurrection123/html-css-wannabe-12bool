@@ -31,10 +31,6 @@ a{
 .row [class*='col-']{
   float: left;
   height: 100%;
-  border: 2px solid black;
-  line-height: 300px;
-  text-align: center;
-  background-color: grey;
 } 
 .row .row [class*='col-']{
   background-color: orangered;
@@ -76,6 +72,7 @@ a{
   }
   .row .col-lg-12{
     width: calc(100% / 12 * 12 );
+    margin-top: 30px;
   }
   .row .col-lg-offset-1{
     margin-left: calc(100% / 12 * 1);
@@ -151,6 +148,7 @@ a{
   }
   .row .col-md-12{
     width: calc(100% / 12 * 12 );
+    margin-top: 30px;
   }
   .row .col-md-offset-1{
     margin-left: calc(100% / 12 * 1);
@@ -229,6 +227,7 @@ a{
   }
   .row .col-xs-12{
     width: calc(100% / 12 * 12 );
+    margin-top: 30px;
   }
   .row .col-xs-offset-1{
     margin-left: calc(100% / 12 * 1);

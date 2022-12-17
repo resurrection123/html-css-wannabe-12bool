@@ -1,0 +1,27 @@
+section{
+  text-align: center;
+  margin: 100px 0;
+}
+section h1{
+  margin: 50px 0;
+  font-size: 35px;
+}
+.row [class*="col-"]{
+  text-align: center;
+}
+.row [class*="col-"] img{
+  height: 200px;
+}
+.row [class*="col-"] h4{
+  margin: 20px 0;
+  font-size: 22px;
+}
+#why .row [class*="col-"]  {
+  border-bottom: 1px solid black;
+  padding: 10px;
+}
+#why .row [class*="col-"] img {
+  background-color: #428bca;
+  border-radius: 50%;
+  padding: 30px;
+}
